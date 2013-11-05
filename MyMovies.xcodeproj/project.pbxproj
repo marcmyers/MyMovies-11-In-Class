@@ -54,11 +54,11 @@
 		0DB7F95018285D6900115CCF /* MyMovies-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyMovies-Prefix.pch"; sourceTree = "<group>"; };
 		0DB7F95118285D6900115CCF /* MyMoviesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyMoviesAppDelegate.h; sourceTree = "<group>"; };
 		0DB7F95218285D6900115CCF /* MyMoviesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMoviesAppDelegate.m; sourceTree = "<group>"; };
-		0DB7F95518285D6900115CCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DB7F95518285D6900115CCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0DB7F95718285D6900115CCF /* MyMoviesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyMoviesViewController.h; sourceTree = "<group>"; };
 		0DB7F95818285D6900115CCF /* MyMoviesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMoviesViewController.m; sourceTree = "<group>"; };
-		0DB7F95A18285D6900115CCF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		0DB7F96018285D6900115CCF /* MyMoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DB7F95A18285D6900115CCF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images.xcassets; sourceTree = "<group>"; };
+		0DB7F96018285D6900115CCF /* MyMoviesTests */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = file; name = MyMoviesTests; path = MyMoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DB7F96118285D6900115CCF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		0DB7F96918285D6900115CCF /* MyMoviesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyMoviesTests-Info.plist"; sourceTree = "<group>"; };
 		0DB7F96B18285D6900115CCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -118,7 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				0DB7F93F18285D6900115CCF /* MyMovies.app */,
-				0DB7F96018285D6900115CCF /* MyMoviesTests.xctest */,
+				0DB7F96018285D6900115CCF /* MyMoviesTests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -232,7 +232,7 @@
 			);
 			name = MyMoviesTests;
 			productName = MyMoviesTests;
-			productReference = 0DB7F96018285D6900115CCF /* MyMoviesTests.xctest */;
+			productReference = 0DB7F96018285D6900115CCF /* MyMoviesTests */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -515,6 +515,7 @@
 				0DB7F97318285D6900115CCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0DB7F97418285D6900115CCF /* Build configuration list for PBXNativeTarget "MyMoviesTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +524,7 @@
 				0DB7F97618285D6900115CCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
